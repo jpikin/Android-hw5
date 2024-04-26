@@ -8,13 +8,14 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.a5hw"
+        applicationId = "com.example.5hw"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -36,6 +37,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
