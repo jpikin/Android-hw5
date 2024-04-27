@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.main)
+        setContentView(binding.root)
 
     }
 }
